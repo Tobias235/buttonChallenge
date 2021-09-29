@@ -1,0 +1,96 @@
+button {
+  width: 100px;
+  height: 30px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.default:hover {
+  background-color: #aeaeae;
+}
+
+.outline {
+  background-color: transparent;
+  border: 2px solid #3d5afe;
+}
+
+.outline:hover {
+  background: rgba(41, 98, 255, 0.1);
+}
+
+.primary {
+  color: #3d5afe;
+}
+
+.text {
+  background-color: transparent;
+}
+
+.textHover:hover {
+  background: rgba(41, 98, 255, 0.1);
+}
+
+.backgroundPrimary {
+  background-color: #3d5afe;
+  color: white;
+}
+
+.disableShadow {
+  box-shadow: unset;
+}
+
+.sm {
+  width: 73px;
+  height: 32px;
+}
+
+.md {
+  width: 81px;
+  height: 36px;
+  margin-left: 50px;
+}
+
+.lg {
+  width: 93px;
+  height: 42px;
+  margin-left: 35px;
+}
+
+.secondary {
+  background-color: #455a64;
+  margin-left: 55px;
+}
+
+.danger {
+  background-color: #d32f2f;
+  margin-left: 65px;
+}
+
+.secondary:hover {
+  background-color: #1c313a;
+}
+
+.danger:hover {
+  background-color: #9a0007;
+}
+
+.primaryHover:hover {
+  background-color: #0039cb;
+}
+
+.material-icons {
+  font-size: inherit;
+  margin: 4px;
+  vertical-align: middle;
+}
+
+.buttonRight {
+  margin-left: 150px;
+}
+
+.buttonPrimary {
+  margin-left: 55px;
+}
